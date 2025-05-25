@@ -336,37 +336,17 @@
             .dashboard-grid {
                 grid-template-columns: 2fr 1fr; /* Two columns: main content and sidebar */
             }
+            /* Adjusted main-content-area to be more flexible */
             .main-content-area {
                 display: grid;
-                grid-template-columns: repeat(3, 1fr); /* Three columns for main content blocks */
+                grid-template-columns: 1fr; /* Default to single column on medium screens */
                 gap: 1.5rem;
             }
         }
 
-        @media (max-width: 767px) { /* Mobile specific adjustments */
+        @media (min-width: 1024px) { /* Large screens and up */
             .main-content-area {
-                grid-template-columns: 1fr; /* Single column for mobile */
-            }
-        }
-
-        .scroll-container {
-            overflow-x: auto;
-            white-space: nowrap;
-            padding-bottom: 1rem; /* Space for scrollbar */
-        }
-
-        .scroll-item {
-            display: inline-block;
-            width: 90%; /* Adjust width for mobile scroll */
-            max-width: 300px; /* Max width for each card */
-            margin-right: 1rem;
-            vertical-align: top; /* Align items at the top */
-        }
-
-        @media (min-width: 768px) {
-            .scroll-item {
-                width: auto; /* Let content define width on larger screens */
-                min-width: 280px; /* Minimum width for desktop cards */
+                grid-template-columns: repeat(2, 1fr); /* Changed to 2 columns for larger desktop screens after removing 'Тренды' */
             }
         }
     </style>
@@ -559,36 +539,6 @@
                         <button class="w-full py-2 px-4 sber-malachite-bg text-white rounded-lg font-semibold hover:opacity-90 transition-colors duration-200 text-base mt-4">
                             Фильтровать по региону
                         </button>
-                    </div>
-
-                    <div class="card col-span-1">
-                        <h2 class="text-xl md:text-2xl font-semibold sber-malachite-text mb-4">Тренды: Что важно сейчас для вашего бизнеса</h2>
-                        <div class="scroll-container">
-                            <div class="scroll-item card bg-[#F8F9FA] p-4 rounded-lg inline-block align-top mr-4">
-                                <div class="flex items-center mb-2">
-                                    <span class="icon-large text-blue-600 mr-2">📦</span>
-                                    <h3 class="font-semibold text-lg text-[#212529]">Продукт</h3>
-                                </div>
-                                <p class="text-sm text-[#6C757D] mb-3">Добавьте опцию "RoomKit Pro" — спрос на премиум-наборы вырос на 30%.</p>
-                                <button class="sber-malachite-text hover:underline text-sm font-medium">Углубиться</button>
-                            </div>
-                            <div class="scroll-item card bg-[#F8F9FA] p-4 rounded-lg inline-block align-top mr-4">
-                                <div class="flex items-center mb-2">
-                                    <span class="icon-large text-green-600 mr-2">💡</span>
-                                    <h3 class="font-semibold text-lg text-[#212529]">Маркетинг</h3>
-                                </div>
-                                <p class="text-sm text-[#6C757D] mb-3">Пользователи WB в Екатеринбурге чаще ищут "всё для первокурсника" — добавьте SEO-описание.</p>
-                                <button class="sber-malachite-text hover:underline text-sm font-medium">Углубиться</button>
-                            </div>
-                            <div class="scroll-item card bg-[#F8F9FA] p-4 rounded-lg inline-block align-top mr-4">
-                                <div class="flex items-center mb-2">
-                                    <span class="icon-large text-purple-600 mr-2">📈</span>
-                                    <h3 class="font-semibold text-lg text-[#212529]">Цена</h3>
-                                </div>
-                                <p class="text-sm text-[#6C757D] mb-3">Поднимите цену на 5% — средний чек в регионе вырос до 2 900 ₽.</p>
-                                <button class="sber-malachite-text hover:underline text-sm font-medium">Углубиться</button>
-                            </div>
-                        </div>
                     </div>
 
                     <div class="card col-span-1">
@@ -1005,7 +955,7 @@
                         <li>Автоматический расчет налогов</li>
                         <li>Формирование деклараций</li>
                     </ul>
-                    <button class="w-full py-2 px-4 sber-malachite-bg text-white rounded-lg font-semibold hover:bg-opacity-90 transition-colors duration-200 text-base">Узнать подробнее</button>
+                    <button class="w-full py-2 px-4 sber-malachite-bg text-white rounded-lg font-semibold hover:opacity-90 transition-colors duration-200 text-base">Узнать подробнее</button>
                 </div>
 
                 <div class="card md:col-span-full">
@@ -1034,7 +984,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="w-full py-2 px-4 sber-malachite-bg text-white rounded-lg font-semibold hover:bg-opacity-90 transition-colors duration-200 text-base">Перейти в Маркетплейс</button>
+                    <button class="w-full py-2 px-4 sber-malachite-bg text-white rounded-lg font-semibold hover:opacity-90 transition-colors duration-200 text-base">Перейти в Маркетплейс</button>
                 </div>
             </div>
         </section>
