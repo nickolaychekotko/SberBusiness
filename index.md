@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- saved from url=(0115)file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html -->
-<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>СберБизнес.Старт - Интерфейс</title>
-    <script src="./index_files/saved_resource"></script>
-    <script src="./index_files/chart.js"></script>
-    <link href="./index_files/css2" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         /* Base styles for the document body */
         body {
@@ -370,7 +370,7 @@
             }
         }
     </style>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-0{right:0px}.top-0{top:0px}.z-50{z-index:50}.col-span-1{grid-column:span 1 / span 1}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mr-2{margin-right:0.5rem}.mr-4{margin-right:1rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.mb-1{margin-bottom:0.25rem}.mb-3{margin-bottom:0.75rem}.ml-2{margin-left:0.5rem}.mt-1{margin-top:0.25rem}.mt-3{margin-top:0.75rem}.mt-6{margin-top:1.5rem}.mt-2{margin-top:0.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-\[150px\]{height:150px}.h-full{height:100%}.h-4{height:1rem}.h-32{height:8rem}.h-5{height:1.25rem}.h-8{height:2rem}.max-h-96{max-height:24rem}.min-h-screen{min-height:100vh}.w-64{width:16rem}.w-full{width:100%}.w-4{width:1rem}.w-5{width:1.25rem}.w-8{width:2rem}.min-w-full{min-width:100%}.max-w-7xl{max-width:80rem}.max-w-2xl{max-width:42rem}.flex-1{flex:1 1 0%}.list-inside{list-style-position:inside}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-4{gap:1rem}.gap-8{gap:2rem}.gap-2{gap:0.5rem}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.rounded-lg{border-radius:0.5rem}.rounded{border-radius:0.25rem}.rounded-md{border-radius:0.375rem}.rounded-full{border-radius:9999px}.rounded-bl-lg{border-bottom-left-radius:0.5rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-\[\#CED4DA\]{--tw-border-opacity:1;border-color:rgb(206 212 218 / var(--tw-border-opacity, 1))}.border-\[\#E9ECEF\]{--tw-border-opacity:1;border-color:rgb(233 236 239 / var(--tw-border-opacity, 1))}.bg-\[\#F8F9FA\]{--tw-bg-opacity:1;background-color:rgb(248 249 250 / var(--tw-bg-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-\[\#212529\]{--tw-bg-opacity:1;background-color:rgb(33 37 41 / var(--tw-bg-opacity, 1))}.bg-\[\#E9ECEF\]{--tw-bg-opacity:1;background-color:rgb(233 236 239 / var(--tw-bg-opacity, 1))}.bg-\[\#21A038\]{--tw-bg-opacity:1;background-color:rgb(33 160 56 / var(--tw-bg-opacity, 1))}.bg-\[\#CED4DA\]{--tw-bg-opacity:1;background-color:rgb(206 212 218 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity, 1))}.bg-opacity-20{--tw-bg-opacity:0.2}.bg-opacity-50{--tw-bg-opacity:0.5}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-\[\#21A038\]{--tw-gradient-from:#21A038 var(--tw-gradient-from-position);--tw-gradient-to:rgb(33 160 56 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-\[\#107F8C\]{--tw-gradient-to:#107F8C var(--tw-gradient-to-position)}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-3{padding:0.75rem}.p-2{padding:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.pr-2{padding-right:0.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.align-top{vertical-align:top}.text-2xl{font-size:1.5rem;line-height:2rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.tracking-wider{letter-spacing:0.05em}.text-\[\#212529\]{--tw-text-opacity:1;color:rgb(33 37 41 / var(--tw-text-opacity, 1))}.text-\[\#21A038\]{--tw-text-opacity:1;color:rgb(33 160 56 / var(--tw-text-opacity, 1))}.text-\[\#6C757D\]{--tw-text-opacity:1;color:rgb(108 117 125 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-\[\#21257D\]{--tw-text-opacity:1;color:rgb(33 37 125 / var(--tw-text-opacity, 1))}.text-yellow-600{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-200{transition-duration:200ms}.hover\:bg-\[\#E9ECEF\]:hover{--tw-bg-opacity:1;background-color:rgb(233 236 239 / var(--tw-bg-opacity, 1))}.hover\:bg-\[\#CED4DA\]:hover{--tw-bg-opacity:1;background-color:rgb(206 212 218 / var(--tw-bg-opacity, 1))}.hover\:bg-\[\#ADB5BD\]:hover{--tw-bg-opacity:1;background-color:rgb(173 181 189 / var(--tw-bg-opacity, 1))}.hover\:bg-opacity-90:hover{--tw-bg-opacity:0.9}.hover\:text-\[\#21A038\]:hover{--tw-text-opacity:1;color:rgb(33 160 56 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\:opacity-90:hover{opacity:0.9}.focus\:border-\[\#21A038\]:focus{--tw-border-opacity:1;border-color:rgb(33 160 56 / var(--tw-border-opacity, 1))}.focus\:ring-\[\#21A038\]:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(33 160 56 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.sm\:space-y-0 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0px * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0px * var(--tw-space-y-reverse))}}@media (min-width: 768px){.md\:col-span-1{grid-column:span 1 / span 1}.md\:col-span-3{grid-column:span 3 / span 3}.md\:col-span-2{grid-column:span 2 / span 2}.md\:col-span-full{grid-column:1 / -1}.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:gap-6{gap:1.5rem}.md\:p-6{padding:1.5rem}.md\:px-6{padding-left:1.5rem;padding-right:1.5rem}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\:text-base{font-size:1rem;line-height:1.5rem}.md\:text-lg{font-size:1.125rem;line-height:1.75rem}.md\:text-sm{font-size:0.875rem;line-height:1.25rem}}@media (min-width: 1024px){.lg\:col-span-1{grid-column:span 1 / span 1}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-5{grid-template-columns:repeat(5, minmax(0, 1fr))}}</style></head>
+</head>
 <body class="bg-[#F8F9FA] text-[#212529] flex min-h-screen">
 
     <aside class="w-64 bg-white shadow-lg p-6 flex-col justify-between hidden md:flex">
@@ -655,24 +655,24 @@
                     <div>
                         <h3 class="text-lg font-semibold mb-4">Сервисы</h3>
                         <ul class="space-y-2 text-sm">
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Сервисы для людей с особыми потребностями</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Сервис выставления счетов</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Размещение денежных средств</a></li>
+                            <li><a href="#" class="hover:underline">Сервисы для людей с особыми потребностями</a></li>
+                            <li><a href="#" class="hover:underline">Сервис выставления счетов</a></li>
+                            <li><a href="#" class="hover:underline">Размещение денежных средств</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h3 class="text-lg font-semibold mb-4">О банке и контакты</h3>
                         <ul class="space-y-2 text-sm mb-4">
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Частным клиентам</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">О банке</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Пресс-центр</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Закупки</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Инсайдерам банка</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Меры безопасности</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Вакансии</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Связаться с банком</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Политика обработки данных</a></li>
+                            <li><a href="#" class="hover:underline">Частным клиентам</a></li>
+                            <li><a href="#" class="hover:underline">О банке</a></li>
+                            <li><a href="#" class="hover:underline">Пресс-центр</a></li>
+                            <li><a href="#" class="hover:underline">Закупки</a></li>
+                            <li><a href="#" class="hover:underline">Инсайдерам банка</a></li>
+                            <li><a href="#" class="hover:underline">Меры безопасности</a></li>
+                            <li><a href="#" class="hover:underline">Вакансии</a></li>
+                            <li><a href="#" class="hover:underline">Связаться с банком</a></li>
+                            <li><a href="#" class="hover:underline">Политика обработки данных</a></li>
                         </ul>
                         <div class="text-sm">
                             <p class="mb-1">Бесплатные звонки с моб. телефонов (Билайн, Мегафон, МТС, СберМобайл, Tele2, Yota) на территории РФ</p>
@@ -688,18 +688,18 @@
                         <p class="text-sm mb-2">© 1997-2025 ПАО Сбербанк.</p>
                         <p class="text-sm mb-2">Генеральная лицензия на осуществление банковских операций от 11 августа 2015 года. Регистрационный номер 1481.</p>
                         <ul class="space-y-2 text-sm">
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Информация о процентных ставках по договорам банковского вклада с физическими лицами</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Информация, обязательная к размещению</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">Раскрытие информации о банке как о профессиональном участнике рынка ценных бумаг</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">На информационном ресурсе применяются рекомендательные технологии</a></li>
+                            <li><a href="#" class="hover:underline">Информация о процентных ставках по договорам банковского вклада с физическими лицами</a></li>
+                            <li><a href="#" class="hover:underline">Информация, обязательная к размещению</a></li>
+                            <li><a href="#" class="hover:underline">Раскрытие информации о банке как о профессиональном участнике рынка ценных бумаг</a></li>
+                            <li><a href="#" class="hover:underline">На информационном ресурсе применяются рекомендательные технологии</a></li>
                         </ul>
                     </div>
 
                     <div class="lg:col-span-1 md:col-span-3">
                         <h3 class="text-lg font-semibold mb-4">Язык</h3>
                         <ul class="space-y-2 text-sm">
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">English</a></li>
-                            <li><a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="hover:underline">中文版</a></li>
+                            <li><a href="#" class="hover:underline">English</a></li>
+                            <li><a href="#" class="hover:underline">中文版</a></li>
                         </ul>
                     </div>
                 </div>
@@ -795,7 +795,7 @@
                 </div>
                 <button class="mt-4 sber-malachite-text hover:underline text-sm font-medium">Посмотреть всю историю</button>
             </div>
-        </div></section>
+        </section>
 
         <section id="accounts-page" class="page-content">
             <h1 class="text-2xl md:text-3xl font-bold text-[#212529] mb-6">Счета</h1>
@@ -1069,7 +1069,7 @@
                             <p>Вы: Добрый день! У меня вопрос по заполнению платежного поручения.</p>
                         </div>
                         <button class="w-full py-2 px-4 bg-[#21A038] text-white rounded-lg font-semibold hover:bg-opacity-90 transition-colors duration-200 text-base">Начать чат</button>
-                        <a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="block text-center sber-malachite-text hover:underline text-sm font-medium mt-2">История чатов</a>
+                        <a href="#" class="block text-center sber-malachite-text hover:underline text-sm font-medium mt-2">История чатов</a>
                         <div class="mt-4 space-y-2">
                             <p class="text-sm font-medium text-[#212529]">Частые проблемы:</p>
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1138,20 +1138,20 @@
                     <h2 class="text-xl md:text-2xl font-semibold sber-malachite-text mb-4">Важное для бизнеса</h2>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div class="bg-[#F8F9FA] p-4 rounded-lg flex flex-col items-center text-center">
-                            <img src="./index_files/FFFFFF" alt="Юридическая поддержка" class="mb-2 rounded-full">
+                            <img src="https://placehold.co/60x60/21A038/FFFFFF?text=Юр" alt="Юридическая поддержка" class="mb-2 rounded-full">
                             <h3 class="text-lg font-semibold text-[#212529]">Юридическая поддержка бизнеса</h3>
-                            <a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="text-sm sber-malachite-text hover:underline font-medium">Подробнее</a>
+                            <a href="#" class="text-sm sber-malachite-text hover:underline font-medium">Подробнее</a>
                         </div>
                         <div class="bg-[#F8F9FA] p-4 rounded-lg flex flex-col items-center text-center">
-                            <img src="./index_files/FFFFFF(1)" alt="Отчетность в госорганы" class="mb-2 rounded-full">
+                            <img src="https://placehold.co/60x60/21A038/FFFFFF?text=Отч" alt="Отчетность в госорганы" class="mb-2 rounded-full">
                             <h3 class="text-lg font-semibold text-[#212529]">Отчётность в госорганы</h3>
-                            <a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="text-sm sber-malachite-text hover:underline font-medium">Подробнее</a>
+                            <a href="#" class="text-sm sber-malachite-text hover:underline font-medium">Подробнее</a>
                         </div>
                         <div class="bg-[#F8F9FA] p-4 rounded-lg flex flex-col items-center text-center relative overflow-hidden">
                             <div class="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded-bl-lg">Новое</div>
-                            <img src="./index_files/FFFFFF(2)" alt="Новости" class="mb-2 rounded-full">
+                            <img src="https://placehold.co/60x60/21A038/FFFFFF?text=Новости" alt="Новости" class="mb-2 rounded-full">
                             <h3 class="text-lg font-semibold text-[#212529]">Маркировка звонков, 3-НДФЛ без штрафов, рост онлайн-продаж</h3>
-                            <a href="file:///C:/Users/Nikolay/Downloads/Telegram%20Desktop/25%20%D0%BC%D0%B0%D1%8F%20%D0%A4%D0%98%D0%9D%D0%90%D0%9B.html#" class="text-sm sber-malachite-text hover:underline font-medium">Новости</a>
+                            <a href="#" class="text-sm sber-malachite-text hover:underline font-medium">Новости</a>
                         </div>
                     </div>
                 </div>
@@ -1241,7 +1241,7 @@
                         </div>
                         <div>
                             <label for="inn_settings" class="block text-sm font-medium text-[#212529] mb-1">ИНН</label>
-                            <input type="text" id="inn_settings" class="w-full p-3 border border-[#CED4DA] rounded-lg bg-[#F8F9FA] text-[#6C757D] text-base" value="7700123456" readonly="">
+                            <input type="text" id="inn_settings" class="w-full p-3 border border-[#CED4DA] rounded-lg bg-[#F8F9FA] text-[#6C757D] text-base" value="7700123456" readonly>
                             <p class="text-xs text-[#6C757D] mt-1">ИНН нельзя изменить самостоятельно. Для изменения обратитесь в поддержку.</p>
                         </div>
                         <div>
@@ -1262,11 +1262,11 @@
                     <div class="space-y-4">
                         <div class="flex items-center justify-between">
                             <label for="notify_payments" class="text-base text-[#212529]">О новых платежах</label>
-                            <input type="checkbox" id="notify_payments" class="h-5 w-5 text-[#21A038] rounded border-[#CED4DA] focus:ring-[#21A038]" checked="">
+                            <input type="checkbox" id="notify_payments" class="h-5 w-5 text-[#21A038] rounded border-[#CED4DA] focus:ring-[#21A038]" checked>
                         </div>
                         <div class="flex items-center justify-between">
                             <label for="notify_taxes" class="text-base text-[#212529]">О сроках уплаты налогов</label>
-                            <input type="checkbox" id="notify_taxes" class="h-5 w-5 text-[#21A038] rounded border-[#CED4DA] focus:ring-[#21A038]" checked="">
+                            <input type="checkbox" id="notify_taxes" class="h-5 w-5 text-[#21A038] rounded border-[#CED4DA] focus:ring-[#21A038]" checked>
                         </div>
                         <div class="flex items-center justify-between">
                             <label for="notify_news" class="text-base text-[#212529]">О новостях и акциях</label>
@@ -1274,7 +1274,7 @@
                         </div>
                         <div class="flex items-center justify-between">
                             <label for="notify_security" class="text-base text-[#212529]">О входе в аккаунт</label>
-                            <input type="checkbox" id="notify_security" class="h-5 w-5 text-[#21A038] rounded border-[#CED4DA] focus:ring-[#21A038]" checked="">
+                            <input type="checkbox" id="notify_security" class="h-5 w-5 text-[#21A038] rounded border-[#CED4DA] focus:ring-[#21A038]" checked>
                         </div>
                         <div>
                             <label for="notification_method" class="block text-sm font-medium text-[#212529] mb-1">Способ уведомлений</label>
@@ -1308,7 +1308,7 @@
                         <button class="w-full py-3 px-4 bg-[#21A038] text-white rounded-lg font-semibold hover:bg-opacity-90 transition-colors duration-200 text-base">Изменить пароль</button>
                         <div class="flex items-center justify-between mt-6">
                             <label for="two_factor_auth" class="text-base text-[#212529]">Двухфакторная аутентификация</label>
-                            <input type="checkbox" id="two_factor_auth" class="h-5 w-5 text-[#21A038] rounded border-[#CED4DA] focus:ring-[#21A038]" checked="">
+                            <input type="checkbox" id="two_factor_auth" class="h-5 w-5 text-[#21A038] rounded border-[#CED4DA] focus:ring-[#21A038]" checked>
                         </div>
                         <p class="text-xs text-[#6C757D] mt-1">Дополнительная защита вашего аккаунта.</p>
                     </div>
@@ -1365,7 +1365,7 @@
                 <p class="text-xs md:text-sm text-[#6C757D] mb-6">Вы можете сохранить квитанцию в PDF или экспортировать в бухгалтерию.</p>
                 <div class="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
                     <button class="py-2 px-6 sber-malachite-bg text-white rounded-lg font-semibold hover:bg-opacity-90 transition-colors duration-200 text-base">Скачать квитанцию (PDF)</button>
-                    <button class="py-2 px-6 bg-[#E9ECEF] text-[#212529] rounded-lg font-semibold hover:bg-[#CED4DA] transition-colors duration-200 text-base" onclick="showPage(&#39;dashboard&#39;); document.getElementById(&#39;payment-result-modal&#39;).classList.add(&#39;hidden&#39;);">Вернуться на главную</button>
+                    <button class="py-2 px-6 bg-[#E9ECEF] text-[#212529] rounded-lg font-semibold hover:bg-[#CED4DA] transition-colors duration-200 text-base" onclick="showPage('dashboard'); document.getElementById('payment-result-modal').classList.add('hidden');">Вернуться на главную</button>
                 </div>
             </div>
         </div>
@@ -1401,7 +1401,7 @@
                         </div>
                     </dl>
                 </div>
-                <button class="btn-primary mt-6" onclick="this.closest(&#39;.modal-overlay&#39;).classList.add(&#39;hidden&#39;)">Закрыть</button>
+                <button class="btn-primary mt-6" onclick="this.closest('.modal-overlay').classList.add('hidden')">Закрыть</button>
             </div>
         </div>
 
@@ -1421,11 +1421,11 @@
                     </ul>
                     <p class="text-sm text-[#212529] font-medium">Совет: Эти даты могут меняться, всегда проверяйте актуальную информацию в личном кабинете ФНС или в разделе "Налоги и отчетность" в СберБизнес.Старт.</p>
                 </div>
-                <button class="btn-primary mt-6" onclick="this.closest(&#39;.modal-overlay&#39;).classList.add(&#39;hidden&#39;)">Закрыть</button>
+                <button class="btn-primary mt-6" onclick="this.closest('.modal-overlay').classList.add('hidden')">Закрыть</button>
             </div>
         </div>
 
-        <button id="ai-assistant-button" class="ai-assistant-button">
+        <button id="ai-assistant-button" class="ai-assistant-button hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-white">
                 <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="bold" fill="white">AI</text>
             </svg>
@@ -1435,7 +1435,7 @@
             <div class="ai-chat-window">
                 <div class="chat-header">
                     <span>AI-ассистент ✨</span>
-                    <button id="close-ai-chat" class="text-white text-xl leading-none">×</button>
+                    <button id="close-ai-chat" class="text-white text-xl leading-none">&times;</button>
                 </div>
                 <div id="chat-messages" class="chat-messages flex flex-col">
                     <div class="message-bubble message-ai">
@@ -1443,7 +1443,7 @@
                     </div>
                 </div>
                 <div class="chat-input-area">
-                    <input type="text" id="ai-chat-input" placeholder="Введите ваше сообщение...">
+                    <input type="text" id="ai-chat-input" placeholder="Введите ваше сообщение..." />
                     <button id="toggle-voice-input" class="bg-blue-500 text-white p-2 rounded-lg">🎤</button>
                     <button id="send-ai-message">Отправить</button>
                 </div>
@@ -2476,6 +2476,5 @@
             createMarketSeasonalityChart(); // Create the chart for Market Pulse
         });
     </script>
-
-
-</body></html>
+</body>
+</html>
